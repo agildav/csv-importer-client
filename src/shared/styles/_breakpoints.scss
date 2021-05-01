@@ -1,0 +1,12 @@
+$gap: 32px;
+$phone-s: 320px;
+$phone-m: 360px;
+$phone-l: 375px;
+$phone-xl: 420px;
+$phone-enabled: 599px;
+$tablet: 769px;
+$desktop: 960px + (2 * $gap);
+$widescreen: 1152px + (2 * $gap);
+$fullhd: 1344px + (2 * $gap);
+$widescreen-enabled: true;
+$fullhd-enabled: false;

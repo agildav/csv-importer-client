@@ -1,0 +1,18 @@
+#navbar {
+  header.MuiAppBar-colorPrimary {
+    background-color: $dark-blue;
+  }
+}
+
+#menu-appbar,
+#profile-appbar {
+  a,
+  div {
+    color: $dark-blue;
+    text-decoration: none;
+
+    li {
+      font-size: 1.2rem;
+    }
+  }
+}

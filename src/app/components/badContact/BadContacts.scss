@@ -1,0 +1,18 @@
+#bad-contacts {
+  margin-top: 1rem;
+  text-align: center;
+
+  .error {
+    color: $danger;
+  }
+
+  .MuiCircularProgress-root {
+    align-self: center;
+    margin-bottom: 0.75rem;
+    text-align: center;
+
+    svg {
+      height: 3.5rem;
+    }
+  }
+}

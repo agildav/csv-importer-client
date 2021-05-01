@@ -1,0 +1,30 @@
+#uploaded-files {
+  margin-top: 1rem;
+  text-align: center;
+
+  .waiting {
+    color: rgb(16, 95, 95);
+  }
+
+  .processing {
+    color: cornflowerblue;
+  }
+
+  .failed {
+    color: $danger;
+  }
+
+  .done {
+    color: green;
+  }
+
+  .MuiCircularProgress-root {
+    align-self: center;
+    margin-bottom: 0.75rem;
+    text-align: center;
+
+    svg {
+      height: 3.5rem;
+    }
+  }
+}

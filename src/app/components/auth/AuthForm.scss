@@ -1,0 +1,55 @@
+#login,
+#register {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 1rem;
+
+  .form-control {
+    div {
+      width: 100%;
+    }
+  }
+
+  .form-action {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.25rem;
+    margin-top: 0.5rem;
+
+    button {
+      width: 100%;
+    }
+  }
+
+  .wrapper {
+    max-width: 90%;
+    width: 35rem;
+  }
+
+  #login-outro,
+  #register-outro {
+    display: flex;
+    font-size: 1rem;
+    justify-content: flex-end;
+    margin-top: 0.5rem;
+  }
+
+  #login-outro {
+    .create-account {
+      text-align: right;
+    }
+  }
+
+  h4 {
+    cursor: pointer;
+    text-decoration: underline;
+    width: fit-content;
+  }
+
+  .MuiCircularProgress-root {
+    align-self: center;
+    margin-bottom: 0.75rem;
+  }
+}

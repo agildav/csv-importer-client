@@ -1,0 +1,57 @@
+#import-form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 1rem;
+
+  h5 {
+    margin: 1rem 0 1.5rem;
+  }
+
+  .row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+
+    @media (max-width: $phone-enabled) {
+      .col {
+        width: 100%;
+      }
+    }
+
+    .form-control {
+      div {
+        width: 100%;
+      }
+    }
+  }
+
+  #file-csv-input {
+    margin: 0.5rem 0;
+    text-align: center;
+  }
+
+  .form-action {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.25rem;
+    margin-top: 0.5rem;
+
+    button {
+      width: 100%;
+    }
+  }
+
+  h4 {
+    cursor: pointer;
+    text-decoration: underline;
+    width: fit-content;
+  }
+
+  .MuiCircularProgress-root {
+    align-self: center;
+    margin-bottom: 0.75rem;
+  }
+}
